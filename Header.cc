@@ -6,6 +6,7 @@
 //
 #include <iostream>
 
+
 //A header must start with a # to tell the computer that it is about to use methods from another source
 //
 //the include is used as a segway to the header
@@ -20,8 +21,10 @@
 //
 int main()
 {
-	std::cout << "Hello there";
-	std::cin >> "hello there";
+	int i;
+	std::cout << "Please enter a number: ";
+	std::cin >> i;
+	std::cout << "Your number is " << i;
 	return 0;
 }
 
